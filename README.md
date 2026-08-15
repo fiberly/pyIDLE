@@ -57,22 +57,13 @@
 
 ### In Xcode:
 1. Open the project in Xcode:
-   ```bash
-   open PyIDLE/Package.swift
-   ```
+
+1.5 Set a development team
+
 2. Select your run destination:
-   - **iPad Pro 11-inch / 13-inch Simulator**, or
+   - Ipad Simulator, or
    - **Your Connected iPad Device**
 3. Press **Run (Cmd+R)**.
-
-### Via Command Line:
-```bash
-# Build for iPad Simulator
-DEVELOPER_DIR=/Applications/Xcode-beta.app/Contents/Developer xcodebuild -scheme PyIDLE -destination 'generic/platform=iOS Simulator' build
-
-# Run unit tests
-DEVELOPER_DIR=/Applications/Xcode-beta.app/Contents/Developer xcrun swift test --package-path PyIDLE -Xswiftc -DTESTING
-```
 
 ---
 
