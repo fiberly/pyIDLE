@@ -1,5 +1,7 @@
 # PyIDLE — Python IDLE for iPad (SwiftUI)
 
+Mostly AI generated, not really tested much.
+
 **PyIDLE** brings the iconic Python IDLE development environment to iPadOS, reimagined with modern SwiftUI, iPad-optimized multi-pane layouts, hardware keyboard shortcuts, an iPad coding accessory toolbar, visual Turtle graphics, and an embedded WebAssembly CPython 3.12 runtime.
 
 ---
